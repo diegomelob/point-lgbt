@@ -1,0 +1,37 @@
+{
+    "name": "Cards",
+    "plural": "Cards",
+    "base": "Model",
+    "strict": true,
+    "idInjection": false,
+    "hidden": ["id"],
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "title": {
+            "type": "string",
+            "required": true,
+            "description": "Content title"
+        },
+        "image": {
+            "type": "string",
+            "required": true,
+            "description": "Content image"
+        },
+        "enable": {
+            "type": "string",
+            "required": true,
+            "description": "true / false"
+        },
+        "relevance": {
+            "type": "string",
+            "required": true,
+            "description": "Relevance exibithion"
+        }             
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+"methods": {}
+}
