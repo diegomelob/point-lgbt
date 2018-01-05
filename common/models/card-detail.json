@@ -1,9 +1,9 @@
 {
-    "name": "Cards",
-    "plural": "Cards",
+    "name": "CardsDetail",
+    "plural": "CardsDetail",
     "base": "Model",
     "strict": true,
-    "idInjection": true,    
+    "idInjection": false,
     "hidden": ["id"],
     "options": {
         "validateUpsert": true
@@ -12,9 +12,9 @@
         "hash": {
             "type": "string",
             "required": true,
-            "description": "Content hash key"
-        },        
-        "title": {
+            "description": "Content hash card"
+        },
+        "title":{
             "type": "string",
             "required": true,
             "description": "Content title"

@@ -1,0 +1,13 @@
+{
+    "db": {
+        "url": "${MONGO_URI}",
+        "name": "db",
+        "connector": "mongodb",
+        "file": "data.json",
+        "connectionTimeout": 10000,
+        "operationTimeout": 10000,
+        "server": {
+          "auto_reconnect": true
+        }
+    }
+}

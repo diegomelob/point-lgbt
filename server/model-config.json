@@ -17,5 +17,9 @@
       "Cards": {
         "dataSource": null,
         "public": true
+      },
+      "CardsDetail": {
+        "dataSource": "db",
+        "public": true
       }
 }
